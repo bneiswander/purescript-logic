@@ -1,4 +1,4 @@
-exports.interleaveArray = function(xs) {
+export const interleaveArray = function(xs) {
   return function(ys) {
     if (xs.length === 0) {
       return ys;
